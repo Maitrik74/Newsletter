@@ -5,7 +5,7 @@ var https = require("https");
 
 const app = express();
 
-// modif
+// modif pomme
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
