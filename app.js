@@ -5,6 +5,7 @@ var https = require("https");
 
 const app = express();
 
+// modif
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
